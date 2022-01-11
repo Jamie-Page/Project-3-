@@ -389,7 +389,7 @@
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
 }
 
-.fa-layer-group,
+.fa-music,
 .fa-users {
   font-size: 14rem;
 }
@@ -449,7 +449,7 @@
   }
 
   .fa-users,
-  .fa-layer-group {
+  .fa-music {
     font-size: 4rem;
   }
 
@@ -546,7 +546,7 @@
 .services__card p {
   text-align: center;
   margin-top: 24px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .services__btn {
