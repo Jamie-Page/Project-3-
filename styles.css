@@ -246,7 +246,8 @@
     to right,
     #8f0eff,
     #da22ff
-  ); 
+  );
+  background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -275,7 +276,7 @@
 
 .main__container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* This is the grids it will be 1 row at a time instad of 4 */
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -513,7 +514,7 @@
 }
 
 .services__card:nth-child(2) {
-  background: #1fa2ff; /* fallback for old browsers */
+  background: #1fa2ff; 
   background: -webkit-linear-gradient(
     to right,
     #a6ffcb,
@@ -526,6 +527,7 @@
     #12d8fa,
     #1fa2ff
   ); 
+}
 
 .services__card:nth-child(3) {
   background-image: linear-gradient(
